@@ -1,0 +1,19 @@
+{
+  "name": "note_taker",
+  "version": "1.0.0",
+  "description": "[![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stacy-Martin/Note_Taker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stacy-Martin/Note_Taker/issues"
+  },
+  "homepage": "https://github.com/Stacy-Martin/Note_Taker#readme"
+}
