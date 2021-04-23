@@ -3,7 +3,7 @@
 const fs = require('fs')
 //this is deconstruction of the uuid object
 //we're just retrieving the v4 method which generates a unique id
-const {v4} = require('uuid');
+const {v4: uuidv4} = require('uuid');
 // ROUTING
 
 module.exports = (app) => {
@@ -34,7 +34,7 @@ module.exports = (app) => {
     //we can add new attributes to objects by just inferring to an property name
     //with dot notation
     //if it doesn't exist, it will create a new one
-    newNote.id = v4();
+    newNote.id = uuidv4()();
     data.push(newNote);
     console.log(newNote)
 
