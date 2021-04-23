@@ -17,6 +17,27 @@ app.use(express.static('public'))
 require('./routes/apiRoutes')(app);
 require('./routes/htmlRoutes')(app);
 
+// functionality for delete button, makes use of the items unique id
+app.delete('/api/notes/:id', (req, res) => {
+  const {
+    params: {
+      id
+    }
+  } = req;
+  for (const [i, element] of db.entries()) {
+    if (element.id === id) {
+      db.splice(i, 1);
+      fs.writeFile('db/db.json', JSON.stringify(db), (err) => {
+        if (err)
+          console.log(err);
+        else {
+          return res.json(db)
+        }
+      })
+    }
+  }
+})
+
 // Listener code effectively "starts" our server
 app.listen(PORT, () => {
   console.log(`App listening on PORT: ${PORT}`);

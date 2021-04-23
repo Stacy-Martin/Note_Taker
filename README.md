@@ -1,4 +1,4 @@
-# Note_Taker
+# Note Taker
 
 [![License: Unlicense](https://img.shields.io/badge/license-Unlicense-blue.svg)](http://unlicense.org/)
 
@@ -6,11 +6,10 @@
 Small businesses owners are often overwhelmed with to do lists, shopping lists, account information, etc.  This note taker app allows users to write and save notes to keep track of tasks and other info in a quick and useful format.  
 
 ## Table of Contents
-- [Team Profile Generator](#note_taker)
+  - [Note Taker](#note_taker)
   - [Description](#description)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
-  - [Usage](#usage)
   - [License](#license)
   - [Contributions](#contributions)
   - [Questions](#questions)
@@ -19,12 +18,10 @@ Small businesses owners are often overwhelmed with to do lists, shopping lists, 
 ## Installation
 To install necessary dependencies, run the following command:
 ~~~
-npm i
-
+npm install
+npm install express
+npm install uuid
 ~~~
-
-## Usage
-  
 
 ## License 
 This project is licensed under the [License: Unlicense](http://unlicense.org/) license.
