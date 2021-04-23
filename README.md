@@ -40,7 +40,7 @@ To contribute to this repository, fork it and submit a pull request for review.
 
 To visit the app deployed live, click here:
 
-XXXXXXXX
+https://vast-plateau-37177.herokuapp.com/
 
 The following screenshot provides a preview of the Note Taker app in use:
 
