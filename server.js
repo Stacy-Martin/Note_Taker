@@ -14,8 +14,8 @@ app.use(express.json());
 app.use(express.static('public'))
 // Router points our server to a series of "route" files.
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
-require('./routes/apiRoutes')(app);
-require('./routes/htmlRoutes')(app);
+require('./Routes/apiRoutes')(app);
+require('./Routes/htmlRoutes')(app);
 
 // functionality for delete button, makes use of the items unique id
 app.delete('/api/notes/:id', (req, res) => {
