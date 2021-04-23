@@ -42,9 +42,11 @@ To visit the app deployed live, click here:
 
 XXXXXXXX
 
-The following screenshot provides a preview of the Note Taker webpage that was generated:
+The following screenshot provides a preview of the Note Taker app in use:
 
 ![](https://raw.githubusercontent.com/Stacy-Martin/Note_Taker/main/public/assets/images/Screen%20Shot%202021-04-23%20at%202.02.27%20AM.png)
+
+
 
 
 
